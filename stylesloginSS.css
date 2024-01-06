@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://static.zara.net/photos///contents/mkt/spots/aw23-north-woman-co-ords/subhome-xmedia-44//w/1920/IMAGE-landscape-fill-8636e964-0b2f-409a-93ab-bc3b9de11d1a-default_0.jpg?ts=1698671794847");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px;
+    border-radius: 20px;
+    backdrop-filter: blur(45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+h1{
+    font-size:x-large;
+    color: #161616;
+    text-align:center;
+}
+.inputbox{
+    position: relative; 
+    top: 50%;
+    left: 2px;
+    transform: translateY(50%);
+    padding: 6px;
+    border-radius: 4px; 
+    box-sizing:content-box;
+    color: #161616;
+
+}
+input:focus~label,
+input:valid~label{
+    top:-2px
+}
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding: 0 35px 0.5 px;
+    color: #161616;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    color: #161616;
+    padding: 20px 45px 20px 20px;
+}
+.inputbox i{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.forgot{
+    margin:35px 0;
+    font-size: 14.5px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.forgot label{
+    display: flex;
+    align-items: center;
+}
+
+.forget label input{
+    margin-right: 3px;
+    accent-color: #161616;
+}
+
+.forgot a{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.forgot a:hover{
+    transform: scaleX(1);
+    text-decoration-color: #c8815f;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:#fff;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+button:hover{
+    background-color: #c8815f;
+}
+.register{
+    font-size: 0.9rem;
+    color: #050505;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+.register p a :hover{
+    text-decoration: underline;
+}

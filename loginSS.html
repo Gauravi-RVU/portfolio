@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesloginSS.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+    <script>
+		function validate(){
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+			{
+			    window.location.href = 'htmlSS.html';
+			}
+			
+		}
+	</script>
+</head>
+<body>
+    <section>
+        <form>
+            <h1><strong>Log in</strong></h1>
+            <div class="inputbox">
+                <label for="username">Username:</label>
+		        <input type="text" id="username" name="username"><br><br>
+                <ion-icon name="mail-outine"></ion-icon>
+                <i class='bx bx-envelope'></i> 
+            </div>
+            <div class="inputbox">
+                <label for="password">Password:</label>
+		        <input type="password" id="password" name="password"><br><br>
+                <ion-icon name="locked-closed-outline"></ion-icon>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <br>
+            <div class="forgot">
+                <label for=""><input type="checkbox">&nbsp;&nbsp; Remember me </label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button onclick="validate()">Log In</button>
+            <div class="register">
+                <br>
+                <p> Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
